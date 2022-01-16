@@ -18,7 +18,7 @@ class App extends Component {
   render() {
     return (
       <div className="container">
-        <textarea rows="3" onKeyUpCapture={this.contarcadena}></textarea>
+        <textarea rows="3" onChange={this.contarcadena}></textarea>
         <div className="counter">{this.state.count}</div>
       </div>
     );
